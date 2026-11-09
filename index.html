@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plano estratégico de cibersegurança e resiliência operacional da Cotemigo S.A.">
+  <title>Cotemigo S.A. | Redenção Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Cotemigo, início">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span>COTEMIGO <small>SEGURANÇA & RESILIÊNCIA</small></span>
+    </a>
+    <nav class="nav">
+      <a href="#jornada">Jornada</a><a href="#qmc">QMC</a><a href="#lro">LRO</a><a href="#simulacao">Cyber Runner</a>
+    </nav>
+    <button class="btn btn-outline" id="printBtn">⇧ <span>Exportar / imprimir</span></button>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> SIMULAÇÃO 04 · A REDENÇÃO</div>
+        <h1>Da crise à<br><em>resiliência digital.</em></h1>
+        <p>Um plano estratégico para reconstruir a confiança, fortalecer a segurança cibernética e manter a Cotemigo preparada para o próximo desafio.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#qmc">Explorar o QMC <span>↘</span></a>
+          <a class="text-link" href="#lro">Ver plano de execução <span>→</span></a>
+        </div>
+        <div class="hero-meta"><span>PLANO ESTRATÉGICO</span><span>•</span><span>HORIZONTE DE 3 ANOS</span></div>
+      </div>
+      <div class="hero-visual cyber-visual">
+        <canvas class="network-canvas" id="networkCanvas" aria-hidden="true"></canvas>
+        <div class="cyber-image-frame">
+          <img src="cyber-security-room.png" alt="Centro de operações de cibersegurança com escudo digital" class="cyber-image">
+          <div class="image-scanline"></div><div class="image-glow"></div>
+          <div class="image-hud"><span><i></i> SISTEMA DE DEFESA ATIVO</span><b>CTG / CYBER OPERATIONS</b></div>
+          <div class="image-caption"><strong>PROTEGER. RESPONDER. RECUPERAR.</strong><small>RESILIÊNCIA DIGITAL · COTEMIGO S.A.</small></div>
+        </div>
+        <div class="float-card card-top"><span class="dot green"></span> PREVENIR <small>Antecipar ameaças</small></div>
+        <div class="float-card card-right"><span class="dot blue"></span> RESPONDER <small>Agir com coordenação</small></div>
+        <div class="float-card card-bottom"><span class="dot orange"></span> RECUPERAR <small>Manter a operação</small></div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div><span class="strip-number">01</span><div><b>Diagnosticar</b><small>Organizar riscos, falhas e prioridades.</small></div></div>
+      <div><span class="strip-number">02</span><div><b>Transformar</b><small>Converter decisões em iniciativas práticas.</small></div></div>
+      <div><span class="strip-number">03</span><div><b>Evoluir</b><small>Medir resultados e melhorar continuamente.</small></div></div>
+    </section>
+
+
+    <section class="phase-story" id="jornada">
+      <div class="phase-story-heading">
+        <div><div class="eyebrow">A JORNADA DA COTEMIGO</div><h2>Três fases. <em>Uma virada.</em></h2></div>
+        <p>Explore como os aprendizados da crise se transformam em decisões para um futuro mais seguro.</p>
+      </div>
+      <div class="story-track">
+        <button class="story-step selected" data-phase="0"><span class="story-node">01</span><span class="story-label">ILUSÕES</span><small>Os riscos não foram percebidos.</small></button>
+        <button class="story-step" data-phase="1"><span class="story-node">02</span><span class="story-label">PERDAS</span><small>As fragilidades geraram consequências.</small></button>
+        <button class="story-step" data-phase="2"><span class="story-node">03</span><span class="story-label">CRISE</span><small>A resposta não foi suficiente.</small></button>
+        <button class="story-step redemption" data-phase="3"><span class="story-node">04</span><span class="story-label">REDENÇÃO</span><small>Aprender, corrigir e evoluir.</small></button>
+      </div>
+      <div class="phase-detail" id="phaseDetail"><span>FASE 1 / ILUSÕES</span><p>O excesso de confiança e a falta de percepção dos riscos impediram a organização de antecipar ameaças. O primeiro passo da redenção é reconhecer que segurança exige vigilância contínua.</p></div>
+    </section>
+
+    <section class="section" id="qmc">
+      <div class="section-heading">
+        <div><div class="eyebrow">01 / DIAGNÓSTICO ESTRATÉGICO</div><h2>Quadro de Modelagem <em>Cyber</em></h2><p>O QMC organiza o cenário da Cotemigo e conecta os aprendizados das três fases às decisões de segurança.</p></div>
+        <div class="phase-legend"><span><i class="phase p1"></i> Fase 1 · Ilusões</span><span><i class="phase p2"></i> Fase 2 · Perdas</span><span><i class="phase p3"></i> Fase 3 · Crise</span></div>
+      </div>
+      <div class="qmc-grid" id="qmcGrid">
+        <article class="q-card q-interested">
+          <div class="q-head"><span class="q-icon">◎</span><div><small>01</small><h3>Interessados</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body"><div class="tagline">Quem participa e é impactado</div>
+            <ul><li><b>Stella Halley</b><span>CEO · direcionamento e investimentos</span></li><li><b>Thaísa Tardes</b><span>CISO · estratégia e gestão de riscos</span></li><li><b>Maria Demarco</b><span>CMO · reputação e comunicação</span></li><li><b>Battle Ponti</b><span>CHRO · pessoas e capacitação</span></li><li><b>TI, colaboradores, clientes, investidores e órgãos reguladores</b><span>Execução, confiança e conformidade</span></li></ul>
+          </div>
+        </article>
+        <article class="q-card q-goals">
+          <div class="q-head"><span class="q-icon">◎</span><div><small>02</small><h3>Metas de segurança</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body"><div class="tagline">O que a Cotemigo precisa alcançar</div>
+            <ul><li>Proteger dados pessoais e institucionais.</li><li>Reduzir vulnerabilidades e acessos indevidos.</li><li>Garantir disponibilidade e continuidade dos serviços.</li><li>Acelerar identificação e resposta a incidentes.</li><li>Fortalecer governança e conformidade com a LGPD.</li><li>Recuperar a confiança de clientes e investidores.</li></ul>
+          </div>
+        </article>
+        <article class="q-card q-failures">
+          <div class="q-head"><span class="q-icon">⌁</span><div><small>03</small><h3>Principais falhas</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body">
+            <div class="phase-item"><i class="phase p1"></i><div><b>Fase 1 · Ilusões</b><p>Riscos não reconhecidos, excesso de confiança e tendências de ameaças ignoradas.</p></div></div>
+            <div class="phase-item"><i class="phase p2"></i><div><b>Fase 2 · Perdas</b><p>Fragilidades na identificação, comunicação e coordenação da resposta a incidentes.</p></div></div>
+            <div class="phase-item"><i class="phase p3"></i><div><b>Fase 3 · Crise</b><p>Erros na resposta à crise, recuperação difícil e danos à confiança.</p></div></div>
+          </div>
+        </article>
+        <article class="q-card q-assets">
+          <div class="q-head"><span class="q-icon">▣</span><div><small>04</small><h3>Ativos críticos</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body"><div class="tagline">O que precisa ser protegido</div>
+            <div class="chip-list"><span>Plataforma E-learning</span><span>Bancos de dados</span><span>Servidores e redes</span><span>Credenciais de acesso</span><span>Sistemas administrativos</span><span>Dados financeiros</span><span>Comunicação e atendimento</span><span>Backups</span></div>
+          </div>
+        </article>
+        <article class="q-card q-threats">
+          <div class="q-head"><span class="q-icon">⌁</span><div><small>05</small><h3>Principais ameaças</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body"><div class="risk-list"><span><i class="risk high"></i> Ransomware</span><span><i class="risk high"></i> Vazamento de dados</span><span><i class="risk high"></i> Roubo de credenciais</span><span><i class="risk medium"></i> Phishing e engenharia social</span><span><i class="risk medium"></i> Vulnerabilidades exploradas</span><span><i class="risk medium"></i> Indisponibilidade de serviços</span><span><i class="risk low"></i> Ameaças internas e fornecedores</span></div></div>
+        </article>
+        <article class="q-card q-capabilities">
+          <div class="q-head"><span class="q-icon">◇</span><div><small>06</small><h3>Capacidades e parcerias</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body"><div class="tagline">Recursos para sustentar a resiliência</div>
+            <div class="split-list"><div><b>Internas</b><p>Equipe de TI capacitada, monitoramento, gestão de acessos, políticas e planos de recuperação.</p></div><div><b>Externas</b><p>Consultorias de cibersegurança, auditorias, provedores de nuvem e assessoria jurídica.</p></div></div>
+          </div>
+        </article>
+        <article class="q-card q-initiatives">
+          <div class="q-head"><span class="q-icon">✳</span><div><small>07</small><h3>Iniciativas estratégicas</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body"><div class="tagline">Medidas para reduzir os riscos</div>
+            <ul class="compact"><li>Monitoramento contínuo e alertas.</li><li>MFA e revisão de privilégios.</li><li>Treinamentos e simulações de phishing.</li><li>Plano de resposta a incidentes.</li><li>Backups testados e recuperação.</li><li>Testes de segurança e auditorias.</li><li>Plano de comunicação de crise.</li></ul>
+          </div>
+        </article>
+        <article class="q-card q-invest">
+          <div class="q-head"><span class="q-icon">↗</span><div><small>08</small><h3>Motivos para investir</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body"><div class="tagline">Valor para o negócio</div>
+            <ul><li>Evitar prejuízos financeiros e interrupções.</li><li>Proteger dados e reduzir riscos legais.</li><li>Preservar a reputação institucional.</li><li>Recuperar a confiança do mercado.</li><li>Garantir continuidade e vantagem competitiva.</li></ul>
+          </div>
+        </article>
+        <article class="q-card q-budget">
+          <div class="q-head"><span class="q-icon">▤</span><div><small>09</small><h3>Planejamento financeiro</h3></div><span class="q-arrow">↗</span></div>
+          <div class="q-body"><div class="tagline">Frentes de alocação do orçamento</div>
+            <div class="budget-bars"><div><span>Tecnologia e ferramentas</span><i><b style="width:85%"></b></i></div><div><span>Infraestrutura e backups</span><i><b style="width:75%"></b></i></div><div><span>Capacitação</span><i><b style="width:65%"></b></i></div><div><span>Auditoria e consultoria</span><i><b style="width:55%"></b></i></div><div><span>Resposta e continuidade</span><i><b style="width:70%"></b></i></div></div>
+            <small class="note">Priorizar ativos críticos e riscos de maior impacto. Barras ilustram prioridade sugerida, não percentuais de orçamento.</small>
+          </div>
+        </article>
+      </div>
+      <div class="qmc-foot"><span>DIAGNÓSTICO → PRIORIDADES → DECISÕES</span><span>QMC · COTEMIGO S.A.</span></div>
+    </section>
+
+    <section class="section lro-section" id="lro">
+      <div class="section-heading">
+        <div><div class="eyebrow">02 / EXECUÇÃO CONTÍNUA</div><h2>Leme de Resiliência <em>Operacional</em></h2><p>As decisões do QMC se tornam iniciativas com responsáveis, prazos e indicadores de acompanhamento.</p></div>
+        <div class="horizon"><span>HORIZONTE</span><b>0–3 meses <i>·</i> 3–12 meses <i>·</i> 1–3 anos</b></div>
+      </div>
+      <div class="lro-tabs" role="tablist" aria-label="Eixos do LRO">
+        <button class="lro-tab active" data-tab="consciencia"><span>01</span> Focalizar consciências <i>↗</i></button>
+        <button class="lro-tab" data-tab="talentos"><span>02</span> Reforçar talentos <i>↗</i></button>
+        <button class="lro-tab" data-tab="operacoes"><span>03</span> Salvaguardar operações <i>↗</i></button>
+      </div>
+      <div class="lro-content" id="lroContent" aria-live="polite"></div>
+      <div class="metrics-title"><div><div class="eyebrow">ACOMPANHAMENTO</div><h3>Indicadores de evolução</h3></div><span>KPIs SUGERIDOS</span></div>
+      <div class="metric-grid" id="metricGrid"></div>
+    </section>
+
+
+    <section class="section runner-section" id="simulacao">
+      <div class="section-heading">
+        <div><div class="eyebrow">04 / DESAFIO INTERATIVO</div><h2>Cyber Runner <em>· Operação Redenção</em></h2><p>A Cotemigo está sob ataque. Ajude o robô Guardião a proteger a infraestrutura, desviar das ameaças e coletar recursos de segurança.</p></div>
+        <div class="runner-status"><span class="pulse"></span> MISSÃO DE CIBERSEGURANÇA</div>
+      </div>
+      <div class="runner-shell">
+        <div class="runner-topbar"><div><span class="runner-live-dot"></span> COTEMIGO SOC <small>· AMBIENTE DE TREINAMENTO</small></div><div class="runner-stage" id="runnerStage">FASE 01 · ILUSÕES</div></div>
+        <div class="runner-hud"><div><small>PONTUAÇÃO</small><strong id="runnerScore">0000</strong></div><div><small>PROTEÇÃO</small><strong id="runnerShield">0</strong></div><div><small>RECORDE</small><strong id="runnerBest">0000</strong></div></div>
+        <div class="runner-game-wrap">
+          <canvas id="runnerCanvas" width="960" height="360" aria-label="Jogo Cyber Runner. Use espaço ou seta para cima para pular e seta para baixo para abaixar."></canvas>
+          <div class="runner-overlay briefing-overlay" id="runnerOverlay">
+            <div class="runner-briefing-card">
+              <div class="briefing-heading"><span class="runner-kicker">OPERAÇÃO REDENÇÃO · BRIEFING</span><h3 id="runnerOverlayTitle">Conheça sua missão.</h3><p id="runnerOverlayText">A infraestrutura da Cotemigo está sob ataque. Entenda as ameaças e prepare o Guardião antes de iniciar.</p></div>
+              <div class="briefing-grid">
+                <article class="briefing-character"><div class="briefing-robot">🤖</div><div><b>GUARDIÃO</b><p>Robô de defesa da Cotemigo. Sua missão é proteger os ativos críticos, resistir aos ataques e manter os serviços funcionando.</p></div></article>
+                <div class="briefing-block briefing-threat-block"><b class="briefing-label threat-label">AMEAÇAS NO CAMINHO</b><div class="briefing-threats">
+                  <div><span class="brief-icon malware-icon">✹</span><p><b>Malware</b><small>Código malicioso que infecta dispositivos e sistemas.</small></p></div>
+                  <div><span class="brief-icon phishing-icon">✉</span><p><b>Phishing</b><small>Mensagem falsa para roubar senhas ou enganar usuários.</small></p></div>
+                  <div><span class="brief-icon ransom-icon">▣</span><p><b>Ransomware</b><small>Bloqueia ou criptografa arquivos e exige resgate.</small></p></div>
+                  <div><span class="brief-icon ddos-icon">≋</span><p><b>DDoS</b><small>Ataque de tráfego que pode derrubar serviços.</small></p></div>
+                </div></div>
+                <div class="briefing-block briefing-defense-block"><b class="briefing-label defense-label">RECURSOS DE DEFESA</b><div class="briefing-defenses"><span><b>◆ Escudo</b> absorve um impacto.</span><span><b>✓ MFA</b> reforça a autenticação.</span><span><b>▣ Backup</b> permite recuperar dados.</span></div></div>
+                <div class="briefing-block briefing-phase-block"><b class="briefing-label phase-label">AS 4 FASES DA OPERAÇÃO</b><div class="briefing-phases"><span><b>01 · ILUSÕES</b><small>O risco começa discreto.</small></span><span><b>02 · PERDAS</b><small>Dados e recursos são afetados.</small></span><span><b>03 · CRISE</b><small>O impacto atinge a operação.</small></span><span><b>04 · REDENÇÃO</b><small>Controles e recuperação restabelecem a confiança.</small></span></div></div>
+              </div>
+              <div class="briefing-footer"><p><b>COMANDOS:</b> Espaço / ↑ para pular · ↓ para abaixar sob o DDoS. Colete os três recursos e evite as ameaças. A missão tem 4 fases e termina aos 1.200 pontos.</p><button id="runnerStart" class="runner-start">INICIAR MISSÃO <span>→</span></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="runner-controls"><div class="runner-instructions"><span><kbd>ESPAÇO</kbd> / <kbd>↑</kbd> PULAR</span><span><kbd>↓</kbd> ABAIXAR SOB O DDoS</span><span>COLETE <b>ESCUDO</b>, <b>MFA</b> E <b>BACKUP</b></span></div><div class="runner-touch"><button id="runnerJump" aria-label="Pular">↑ PULAR</button><button id="runnerDuck" aria-label="Abaixar">↓ ABAIXAR</button></div></div>
+        <div class="runner-bottom"><span>AMEAÇAS: MALWARE · PHISHING · RANSOMWARE · DDoS</span><span>OBJETIVO: ALCANÇAR A REDENÇÃO DIGITAL</span></div>
+      </div>
+      <div class="runner-legend" aria-label="Legenda dos elementos do jogo">
+        <div class="runner-legend-title"><span class="eyebrow">GUIA DO JOGO</span><h3>O que cada elemento representa?</h3><p>Os desenhos são símbolos de ameaças e controles reais de cibersegurança.</p></div>
+        <div class="legend-card threat"><span class="legend-symbol malware-symbol">✹</span><div><b>Malware</b><p>Software malicioso que pode infectar dispositivos, roubar informações ou danificar sistemas. <strong>Ação: pular.</strong></p></div></div>
+        <div class="legend-card threat"><span class="legend-symbol phishing-symbol">✉</span><div><b>Phishing</b><p>Mensagem falsa criada para enganar alguém e obter senhas, dados ou acesso. <strong>Ação: pular.</strong></p></div></div>
+        <div class="legend-card threat"><span class="legend-symbol ransom-symbol">▣</span><div><b>Ransomware</b><p>Tipo de malware que criptografa ou bloqueia arquivos e exige resgate. <strong>Ação: pular.</strong></p></div></div>
+        <div class="legend-card threat"><span class="legend-symbol ddos-symbol">≋</span><div><b>DDoS</b><p>Ataque que sobrecarrega um serviço com tráfego, podendo deixá-lo indisponível. No jogo, é a onda que passa na altura do robô. <strong>Ação: abaixar.</strong></p></div></div>
+        <div class="legend-card defense"><span class="legend-symbol shield-symbol">◆</span><div><b>Escudo</b><p>Representa uma camada de proteção. No jogo, absorve um impacto de ameaça.</p></div></div>
+        <div class="legend-card defense"><span class="legend-symbol mfa-symbol">✓</span><div><b>MFA</b><p>Autenticação multifator: adiciona uma segunda etapa de verificação ao acesso.</p></div></div>
+        <div class="legend-card defense"><span class="legend-symbol backup-symbol">▣</span><div><b>Backup</b><p>Cópia de segurança que permite recuperar dados após perda, falha ou ataque.</p></div></div>
+      </div>
+      <div class="runner-explain"><div><span>01</span><b>Desvie dos ataques</b><p>Pule ou abaixe para evitar ameaças que representam riscos reais à organização.</p></div><div><span>02</span><b>Reforce a defesa</b><p>Recolha escudos, MFA e backups para ganhar proteção durante a missão.</p></div><div><span>03</span><b>Avance pelas fases</b><p>O cenário evolui de Ilusões e Perdas até Crise e Redenção.</p></div></div>
+    </section>
+
+    <section class="section cycle-section" id="ciclo">
+      <div class="section-heading">
+        <div><div class="eyebrow">03 / GOVERNANÇA E EVOLUÇÃO</div><h2>Um ciclo que <em>não para.</em></h2><p>O LRO retroalimenta o QMC: cada resultado e cada incidente geram novos aprendizados e ajustes.</p></div>
+      </div>
+      <div class="cycle">
+        <div class="cycle-step"><span>01</span><b>Planejar</b><small>Identificar riscos e definir prioridades no QMC.</small></div>
+        <div class="cycle-arrow">→</div>
+        <div class="cycle-step"><span>02</span><b>Executar</b><small>Colocar as iniciativas do LRO em prática.</small></div>
+        <div class="cycle-arrow">→</div>
+        <div class="cycle-step"><span>03</span><b>Medir</b><small>Acompanhar indicadores e resultados.</small></div>
+        <div class="cycle-arrow">→</div>
+        <div class="cycle-step"><span>04</span><b>Aprimorar</b><small>Corrigir falhas e atualizar a estratégia.</small></div>
+      </div>
+      <div class="closing">
+        <div class="closing-mark">✳</div><div><div class="eyebrow">O OBJETIVO FINAL</div><h3>Não basta evitar o próximo incidente.<br><em>É preciso estar pronto para enfrentá-lo.</em></h3><p>Uma Cotemigo mais consciente, capacitada e preparada para resistir, se adaptar e continuar operando.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer><span> COTEMIGO S.A. <i>·</i> SIMULAÇÃO 04</span><span>PLANO DE CIBERSEGURANÇA E RESILIÊNCIA OPERACIONAL</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
